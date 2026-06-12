@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+chroma_db/
+.pytest_cache/
+venv/
+.venv/
+eval_report.md

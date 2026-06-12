@@ -1,0 +1,8 @@
+openai>=1.30
+chromadb>=0.5
+sentence-transformers>=3.0
+langgraph>=0.2
+pypdf>=4.0
+streamlit>=1.35
+python-dotenv>=1.0
+pytest>=8.0
