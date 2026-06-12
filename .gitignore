@@ -6,3 +6,4 @@ chroma_db/
 venv/
 .venv/
 eval_report.md
+.DS_Store
