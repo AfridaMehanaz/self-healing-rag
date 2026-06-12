@@ -52,7 +52,8 @@ def rewrite_query(state: RAGState) -> RAGState:
     """HEAL #1: irrelevant retrieval -> rewrite the query and retry."""
     new_q = chat(
         "You rewrite search queries to improve document retrieval. "
-        "Return ONLY the rewritten query, nothing else.",
+        "Use plain natural-language keywords only — no quotes, no OR/AND, "
+        "no boolean operators. Return ONLY the rewritten query, nothing else.",
         f"Original query: {state['original_question']}\n"
         "This query failed to retrieve relevant documents. Rewrite it with "
         "different keywords and more specific terms.",
